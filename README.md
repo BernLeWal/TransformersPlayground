@@ -1,13 +1,27 @@
 # Hugging Face - Transformers-Playground
 
-Samples for using the transformers library from Hugging Face
+Playground with samples for using the transformers library from Hugging Face (huggingface.co).
 
-Based on the iX article: [Hugging Face - Zentrale für KI Modelle](https://www.heise.de/select/ix/2023/13/2302013542051756278)
+Samples:
+* text translation en-de: samples based on the iX article: [Hugging Face - Zentrale für KI Modelle](https://www.heise.de/select/ix/2023/13/2302013542051756278) and https://huggingface.co/google/bert2bert_L-24_wmt_de_en
+* text translation de_en
+* code generation
 
 ## Pre-Requisites
 
 * On windows activate the developer-mode see [Enable your device for development](https://learn.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development):
 * Install required packages: ```pip install -r requirements.txt```
+
+Hint: use a virtual environment (VENV) for python and libraries
+```.venv\Scripts\activate```
+
+## Models used
+
+Some of the models are gated, f.e. StableCode - so you need to:
+  1. request access to the model on https://huggingface.co
+  2. create a new token https://huggingface.co/settings/tokens
+  3. run in a shell: ```huggingface-cli login```
+     and paste the token there.
 
 ## Installation
 

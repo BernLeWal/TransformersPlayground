@@ -1,4 +1,4 @@
-#!\bin\python
+#!/bin/python
 """
 Translation from a german sentence into english.
 Sample taken from https://huggingface.co/google/bert2bert_L-24_wmt_de_en
