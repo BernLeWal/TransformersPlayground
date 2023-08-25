@@ -1,4 +1,9 @@
 #!\bin\python
+"""
+Translation from a german sentence into english.
+Sample taken from https://huggingface.co/google/bert2bert_L-24_wmt_de_en
+"""
+
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
 
 tokenizer = AutoTokenizer.from_pretrained("google/bert2bert_L-24_wmt_de_en", pad_token="<pad>", eos_token="</s>", bos_token="<s>")
