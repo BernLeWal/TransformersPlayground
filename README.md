@@ -45,3 +45,22 @@ pip3 freeze > requirements.txt
 ## Running
 
 Select one of the sampleXYZ.py of your choice and run them.
+
+* [sample1.py](sample1.py): Translation from an english sentence into german.  
+  Using pipeline("translation_en_to_de")
+* [sample2.py](sample2.py): Translation from a german sentence into english.  
+  Using google/bert2bert_L-24_wmt_de_en
+* [sample3.py](sample3.py): Chat with a local natural-LLM Falcon-2B.  
+  Using tiiuae/falcon-7b-instruct, also runs on the GPU.
+* [sample4.py](sample4.py): use the StableCode-Model from StabilityAI to generate sourcecode.  
+  Using stabilityai/stablecode-instruct-alpha-3b, runs on the GPU.
+
+
+## Troubleshooting
+
+### Upgrade transformers library
+
+```
+pip install transformers --upgrade
+```
+

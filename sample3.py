@@ -1,5 +1,6 @@
 #!/bin/python
 """
+Chat with a local natural-LLM Falcon-2B.
 Sample based on the ct-Article Sprach-KI Falcon, see https://ct.de/y2t4
 """
 from transformers import AutoTokenizer, AutoModelForCausalLM

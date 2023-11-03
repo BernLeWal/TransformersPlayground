@@ -19,7 +19,7 @@ model = AutoModelForCausalLM.from_pretrained(
   torch_dtype="auto",
 )
 model.cuda()
-inputs = tokenizer("###Instruction\nGenerate a python function to find number of CPU cores###Response\n", return_tensors="pt").to("cuda")
+inputs = tokenizer("###Instruction\nGenerate a python function to find number of CPU cores###Response\n", return_tensors="pt", return_token_type_ids=False).to("cuda")
 tokens = model.generate(
   **inputs,
   max_new_tokens=48,
