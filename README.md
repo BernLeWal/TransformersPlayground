@@ -54,6 +54,8 @@ Select one of the sampleXYZ.py of your choice and run them.
   Using tiiuae/falcon-7b-instruct, also runs on the GPU.
 * [sample4.py](sample4.py): use the StableCode-Model from StabilityAI to generate sourcecode.  
   Using stabilityai/stablecode-instruct-alpha-3b, runs on the GPU.
+* [sample5.py](sample5.py): use CodeLLAMA from META to generate sourcecode.  
+  Using codellama/CodeLlama-7b-hf, aslo runs on the GPU.
 
 
 ## Troubleshooting
